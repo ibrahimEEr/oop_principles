@@ -2,7 +2,10 @@ package oop_principles.encapsulation;
 
 public class Employee {
 
+
     public Employee(){}
+
+    //4-args constructor
 
 
     public Employee(String fullName, String jobPosition, int age, Company company) {
@@ -12,16 +15,13 @@ public class Employee {
         this.company = company;
     }
 
+    //Instance variables
     private String fullName;
-
     private String jobPosition;
-
     private int age;
-
     private Company company;
 
-
-
+    //getters and setters
     public String getFullName() {
         return fullName;
     }
@@ -54,6 +54,7 @@ public class Employee {
         this.company = company;
     }
 
+    //toString() method
     @Override
     public String toString() {
         return "Employee{" +
@@ -62,9 +63,5 @@ public class Employee {
                 ", age=" + age +
                 ", company=" + company +
                 '}';
-
     }
-
-
-
 }

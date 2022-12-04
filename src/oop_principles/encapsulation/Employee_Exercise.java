@@ -11,9 +11,6 @@ public class Employee_Exercise {
         Tesla, California, 123
         USBank, Minnesota, 000
         Verizon, Texas, 111
-
-
-
         Create 10 employees
         fullname, jobPosition, age, company
         Andrii, Developer, 25, Tesla
@@ -47,13 +44,10 @@ public class Employee_Exercise {
 
         /*
         Write a program to find and report below information
-
         Employee numbers for each company
         Tesla = 4
         USBank = 3
         Verizon = 3
-
-
         Employee numbers for each position
         Tester = 3
         Developer = 2
@@ -61,12 +55,10 @@ public class Employee_Exercise {
         Designer = 2
         System Architect = 1
         Scrum Master = 1
-
         Find youngest
         Youngest tester = Samir with the age of 20
         Youngest developer = Andrii with the age of 25
         Youngest designer = Ibrahim with the age of 27
-
         Find the company
         Manager = Saeed works at Verizon
         System Architect = Yildiz works at USBank
@@ -147,5 +139,7 @@ public class Employee_Exercise {
         System.out.println("Youngest tester = " + youngestTester.getFullName() + " with the age of " + youngestTester.getAge());
         System.out.println("Youngest developer = " + youngestDev.getFullName() + " with the age of " + youngestDev.getAge());
         System.out.println("Youngest designer = " + youngestDesigner.getFullName() + " with the age of " + youngestDesigner.getAge());
+
+
     }
 }

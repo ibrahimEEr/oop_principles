@@ -29,7 +29,6 @@ public class EmployeeClub {
         # developers -> 3
         # testers -> 2
         # developers work in Microsoft -> 2
-
         Find the youngest developer -> Jane is the youngest with age = 20
         Find the oldest employee -> John is the oldest with the age = 45
          */
@@ -79,15 +78,12 @@ public class EmployeeClub {
 
         /*
         Employee oldestMicrosoftDev = new Employee();
-
         for (Employee employee : employees) {
             if(employee.getCompany().getName().equals("Microsoft")
             && employee.getJobPosition().equals("Developer")
             && employee.getAge() > oldestMicrosoftDev.getAge()) oldestMicrosoftDev = employee;
         }
-
         System.out.println(oldestMicrosoftDev);
-
          */
 
         Employee oldestMicrosoftDev = Arrays.stream(employees).

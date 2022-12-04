@@ -2,20 +2,22 @@ package oop_principles.encapsulation;
 
 public class Company {
 
-    public Company(){
+    //Default constructor
+    public Company(){}
 
-    }
+    //Create 3 args constructor
 
-   private String name;
-   private String address;
-   private String phoneNumber;
-
-
-    public Company(String name, String address, String phoneNumber) {
+    public Company(String name, String address, String phone) {
         this.name = name;
         this.address = address;
-        this.phoneNumber = phoneNumber;
+        this.phone = phone;
     }
+
+    //Create instance variables name, address, phone and encapsulate them
+
+    private String name;
+    private String address;
+    private String phone;
 
     public String getName() {
         return name;
@@ -33,21 +35,20 @@ public class Company {
         this.address = address;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
-
 
     @Override
     public String toString() {
         return "Company{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 }

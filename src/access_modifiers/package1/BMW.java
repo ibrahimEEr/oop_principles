@@ -3,6 +3,14 @@ package access_modifiers.package1;
 public class BMW {
 
     // make, model, year, price
+    static {
+
+    }
+
+    {
+
+    }
+
 
     public String make;
     protected String model;

@@ -5,19 +5,16 @@ public class PersonTest {
         Person p1 = new Person();
         Tester t1 = new Tester();
 
-        p1.eat();
-        t1.eat();
+        p1.eat(); // Person eats
+        t1.eat(); // Tester eats
 
-        p1.sleep();
-        t1.sleep();
+        p1.sleep(); // Person sleeps
+        t1.sleep(); // Tester sleeps
 
         p1.sleep(10);
         t1.sleep(10);
 
         System.out.println(p1);
         System.out.println(t1);
-
-
-
     }
 }
